@@ -22,9 +22,10 @@ public class Sorter {
         LinkedHashSet<String> linklist = new LinkedHashSet<>();
         Pattern p = Pattern.compile("href=\"(.*?)\"");
         Matcher m = p.matcher(Url);
-        while (m.find()) {
-             linklist.add(m.group(1));
-         }
+        while (m.find())
+            if (m.group(1).charAt(0) == '/')
+                linklist.add(m.group(1));
+
         Writer a = new Writer(linklist);
         return a.write();
     }
