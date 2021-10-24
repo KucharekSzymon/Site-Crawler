@@ -2,32 +2,25 @@ import java.util.LinkedHashSet;
 import java.util.regex.*;
 
 public class Sorter {
+    String Content;
     String Url;
 
     /**
      *
-     * @param url
-     * Url is a string with downloaded content of a page
+     * @param content
+     * content is a string with downloaded content of a page
      */
-    public Sorter(String url){
+    public Sorter(String content, String url){
+        this.Content = content;
         this.Url = url;
     }
 
     /**
      *
      * @return
-     * Return Linked HashSet of all links containted by page
+     * Return Linked HashSet of all links on domain
      */
      String sort(){
-        LinkedHashSet<String> linklist = new LinkedHashSet<>();
-        Pattern p = Pattern.compile("href=\"(.*?)\"");
-        Matcher m = p.matcher(Url);
-        while (m.find())
-            if (m.group(1).charAt(0) == '/')
-                linklist.add(m.group(1));
-
-        Writer a = new Writer(linklist);
-        return a.write();
+    return Url;
     }
-
 }

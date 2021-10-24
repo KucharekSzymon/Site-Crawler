@@ -2,13 +2,15 @@ import java.util.LinkedHashSet;
 
 public class Writer {
     String sorted = "";
+    String Url;
     /**
      * @parm sorted
      * String that can be displayed and is made by write function
      */
     LinkedHashSet<String> Linklist;
-    public Writer(LinkedHashSet<String> list){
+    public Writer(LinkedHashSet<String> list, String url){
         this.Linklist = list;
+        this.Url = url;
     }
 
     /**
@@ -17,7 +19,7 @@ public class Writer {
      */
     public String write (){
         for (String x: Linklist) {
-            sorted += x+"\n";
+            sorted += Url+x+"\n";
         }
         return sorted+"\n"+Linklist.size()+" links found.";
     }

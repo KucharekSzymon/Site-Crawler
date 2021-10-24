@@ -94,6 +94,7 @@ public class MainWindow extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         Downloader a = new Downloader(jTextField1.getText());
+        a.run();
         String text = a.x();
         jTextArea1.append(text);
     }//GEN-LAST:event_jButton1ActionPerformed

@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89167244-30d8-4c10-8872-dca5897cdf00" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Site-Crawler.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Site-Crawler.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cw1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Cw1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cw1/src/main/java/Downloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cw1/src/main/java/Downloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cw1/src/main/java/MainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cw1/src/main/java/MainWindow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Cw1/src/main/java/Sorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cw1/src/main/java/Sorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cw1/src/main/java/Writer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Cw1/src/main/java/Writer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +28,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/Cw1" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -37,6 +45,8 @@
       <workItem from="1633971118345" duration="5000" />
       <workItem from="1634227297492" duration="577000" />
       <workItem from="1634227900290" duration="13000" />
+      <workItem from="1634469646591" duration="1795000" />
+      <workItem from="1634501507460" duration="853000" />
     </task>
     <servers />
   </component>
